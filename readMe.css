@@ -150,3 +150,44 @@
   font-style: normal;
   font-size: 50px;
 }
+
+@media (max-width: 1399.98px) {
+  .header-p2{
+    font-size: 150px;
+  }
+
+  .content1-p2, .content-div-p1{
+    max-width: 850px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header-p2 {
+    font-size: 100px;
+    line-height: 179.00px;
+  }
+
+  .content1-p2,
+  .content-div-p1 {
+    max-width: 700px;
+  }
+
+  .content1-div1-p6{
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header-p2 {
+    font-size: 90px;
+  }
+
+  .content1-p2,
+  .content-div-p1 {
+    max-width: 600px;
+  }
+
+  .content1-div1-p6, .content1-div1-p5, .content1-div1-p4, .content1-div1-p3, .content1-div1-p2, .content1-div1-p1{
+    font-size: 30px;
+  }
+}
